@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-header {
+  width: 100%;
+  background-color: #888;
+  color: white;
+  text-align: center;
+}
+
+.results-container {
+  display: flex;
+  width: 100%;
+  max-width: 40rem;
+}
+
+.type {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+p {
+  font-size: small;
+}
+
+input {
+  font-size: large;
+  margin-left: 1rem;
+  /*box-shadow: 0 1px 1px #ddd;*/
+  /*border: 1px solid #ccc;*/
+}
+
+.ps {
+  position: absolute;
+  bottom: 0;
+  max-width: 40rem;
+}
+.main, .results-container, .ps{
+  padding: 0 1rem;
+}
